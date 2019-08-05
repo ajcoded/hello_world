@@ -25,6 +25,6 @@ Code Location: Hello_World/server.py
 use shell script to create blue-green deployment using aws beanstalk provided rollingupdate feature. 
 Below is the command which can be used to update the environment with new version of application :-
 deploy.sh Application_NAME final_version ENV
-It expects that all the authentication variables of AWS are already set in the environment otherwise it'll be failed application name & Environment should match variables of terraform for the sake of common naming convention which will reduce overhead of creating new automation to find the desired environment
+It expects that all the authentication variables of AWS are already set in the environment & new artifacts are uploaded to a S3 bucket with credentials set in environment otherwise it'll be failed application name & Environment should match variables of terraform for the sake of common naming convention which will reduce overhead of creating new automation to find the desired environment
 
 ## Proposed Architecture pic uploaded
